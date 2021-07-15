@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const Joi = require("joi");
 
 const todoSchme = new mongoose.Schema({
-  _id: { type: mongoose.Schema.Types.ObjectId },
+
   todoBody: {
     type: String,
     required: true,
